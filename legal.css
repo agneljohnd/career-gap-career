@@ -1,0 +1,19 @@
+@import url("styles.css");
+.doc{ background:var(--white); padding-block:46px 72px; min-height:70vh }
+.doc .container{ max-width:760px }
+.doc .back{ display:inline-flex; align-items:center; gap:8px; font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3); margin-bottom:22px }
+.doc .back:hover{ color:var(--ink) }
+.doc h1{ font-size:32px; letter-spacing:-.035em; font-weight:500 }
+@media (min-width:800px){ .doc h1{ font-size:42px } }
+.doc .upd{ font-family:var(--mono); font-size:11.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3); margin-top:12px }
+.doc h2{ font-size:20px; font-weight:500; letter-spacing:-.022em; margin-top:38px }
+@media (min-width:800px){ .doc h2{ font-size:23px } }
+.doc p,.doc li{ font-size:16px; color:var(--ink-2); line-height:1.68; margin-top:13px }
+.doc li{ position:relative; padding-left:24px }
+.doc li::before{ content:""; position:absolute; left:0; top:13px; width:13px; height:1px; background:var(--mint-deep) }
+.doc ul{ margin-top:6px; display:grid; gap:4px }
+.doc strong{ color:var(--ink); font-weight:500 }
+.doc a.lnk{ color:var(--ink); text-decoration:underline; text-decoration-color:var(--mint-deep); text-underline-offset:3px }
+.doc .lead{ font-family:var(--head); font-size:19px; font-weight:400; letter-spacing:-.025em; color:var(--ink); line-height:1.45; margin-top:24px }
+.doc .box{ margin-top:24px; background:var(--paper); border-left:2px solid var(--mint); border-radius:0 var(--r-sm) var(--r-sm) 0; padding:18px 20px }
+.doc .box p{ margin-top:0 }
